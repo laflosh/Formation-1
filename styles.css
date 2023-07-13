@@ -9,6 +9,15 @@
 	font-weight: bold;
 }
 
+.degrader{
+
+    background: linear-gradient(#8E86B5,#ACAEED );
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: normal;
+
+}
+
 h1{
 
     font-size: 3.5em;
@@ -17,10 +26,19 @@ h1{
 
 }
 
+h2 {
+
+    color: #F9F8FF;
+    background-color: darkblue;
+
+}
+
 p {
 
     font-size: 1.1em;
     font-family: 'Manrope', sans-serif;
+    color: #F9F8FF;
+    background-color: darkblue;
 
 }
 
@@ -28,6 +46,8 @@ ul {
 
     font-size: 1em;
     font-family: 'Manrope', sans-serif;
+    color: #F9F8FF;
+    background-color: darkblue;
 
 }
 
@@ -36,5 +56,18 @@ a {
     font-size: 1em;
     text-decoration: normal;
     font-family: 'Manrope', sans-serif;
+    color: #242424;
+
+}
+
+div {
+
+    background-color: white;
+
+}
+
+body {
+
+    background-color: #1F2039;
 
 }
