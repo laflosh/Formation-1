@@ -82,3 +82,21 @@ body {
     background-color: #1F2039;
 
 }
+
+a:hover {
+
+    text-decoration: underline;
+
+}
+
+.degrader:hover {
+
+    background: linear-gradient(#696484,#8788BA);
+
+}
+
+#lien:hover {
+
+    opacity: 0.5;
+
+} 
