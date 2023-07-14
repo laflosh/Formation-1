@@ -19,8 +19,8 @@
 
 }
 
-.entete,
-.pied-de-page {
+header,
+footer {
 
     background-color: white;
 
@@ -100,3 +100,12 @@ a:hover {
     opacity: 0.5;
 
 } 
+
+.robbie:hover{
+
+    border: 2.5px red solid;
+    box-shadow: box-shadow:
+    23.5px 39.9px 10px rgba(0, 0, 0, 0.246),
+    43px 73px 80px rgba(0, 0, 0, 0.33);
+    
+}
