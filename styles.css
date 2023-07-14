@@ -19,6 +19,21 @@
 
 }
 
+.entete,
+.pied-de-page {
+
+    background-color: white;
+
+}
+
+.texte-a-propos{
+
+    border-right: 1px #8e86b5 solid;
+    border-bottom: 1px #8e86b5 solid;
+
+}
+
+
 h1{
 
     font-size: 3.5em;
@@ -34,16 +49,6 @@ h2 {
 
 }
 
-.texte-a-propos{
-
-    font-size: 1.1em;
-    font-family: 'Manrope', sans-serif;
-    color: #F9F8FF;
-    background-color: darkblue;
-    border-right: 1px #8e86b5 solid;
-    border-bottom: 1px #8e86b5 solid;
-
-}
 
 p {
 
@@ -69,12 +74,6 @@ a {
     text-decoration: normal;
     font-family: 'Manrope', sans-serif;
     color: #242424;
-
-}
-
-div {
-
-    background-color: white;
 
 }
 
