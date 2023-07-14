@@ -1,3 +1,9 @@
+* {
+
+    margin: 0;
+
+}
+
 #lien{
 
     color:black;
@@ -14,15 +20,8 @@
     background: linear-gradient(#8E86B5,#ACAEED );
     color: white;
     font-family: 'Montserrat', sans-serif;
-    text-decoration: normal;
+    text-decoration: none;
     border-radius: 50px 50px 50px 50px;
-
-}
-
-header,
-footer {
-
-    background-color: white;
 
 }
 
@@ -30,9 +29,26 @@ footer {
 
     border-right: 1px #8e86b5 solid;
     border-bottom: 1px #8e86b5 solid;
+    margin: auto;
+    padding: 50px;
 
 }
 
+.a-propos-main {
+    width: 75%;
+    margin: auto;
+}
+
+header,
+footer {
+
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
 
 h1{
 
@@ -46,6 +62,7 @@ h2 {
 
     color: #F9F8FF;
     background-color: darkblue;
+    margin-top: 20px;
 
 }
 
@@ -65,15 +82,22 @@ ul {
     font-family: 'Manrope', sans-serif;
     color: #F9F8FF;
     background-color: darkblue;
+    padding: auto;
 
 }
 
 a {
 
     font-size: 1em;
-    text-decoration: normal;
+    text-decoration: none;
     font-family: 'Manrope', sans-serif;
     color: #242424;
+
+}
+
+section{
+
+    padding: 80px;
 
 }
 
@@ -104,8 +128,6 @@ a:hover {
 .robbie:hover{
 
     border: 2.5px red solid;
-    box-shadow: box-shadow:
-    23.5px 39.9px 10px rgba(0, 0, 0, 0.246),
-    43px 73px 80px rgba(0, 0, 0, 0.33);
+    box-shadow: 23.5px 39.9px 10px rgba(0, 0, 0, 0.246),43px 73px 80px rgba(0, 0, 0, 0.33);
     
 }
