@@ -15,6 +15,7 @@
     color: white;
     font-family: 'Montserrat', sans-serif;
     text-decoration: normal;
+    border-radius: 50px 50px 50px 50px;
 
 }
 
@@ -30,6 +31,17 @@ h2 {
 
     color: #F9F8FF;
     background-color: darkblue;
+
+}
+
+.texte-a-propos{
+
+    font-size: 1.1em;
+    font-family: 'Manrope', sans-serif;
+    color: #F9F8FF;
+    background-color: darkblue;
+    border-right: 1px #8e86b5 solid;
+    border-bottom: 1px #8e86b5 solid;
 
 }
 
