@@ -16,11 +16,13 @@
 
         <header>
 
-            <nav>
+            <a href="index.html"><img src="Images/logo.png" alt="logo de mon site" title="logo" id="lien" class="logo"/></a>
 
-                <a href="index.html"><img src="Images/logo.png" alt="logo de mon site" title="logo" id="lien"/></a>
+            <nav class="nav">
+
                 <a href="index.html">Accueil</a>
                 <a href="Contenue/a-propos.html" id="lien"> A propos</a>
+                <a href="Contenue/portefolio.html">Portfolio</a>
 
             </nav>
 
@@ -28,29 +30,51 @@
          
     <main>
 
-        <div>
+        <section class="contenu">
 
-            <h1>Robbie Lens, Photographe</h1>
-            
-            <section>
+            <div class="texte">
 
-            <p>Où <em class="p-acceuil">professionalisme</em> s'allie avec <em class="p-acceuil">passion</em>. Depuis plus de 5 ans maintenant,
-                j'exerce mon métier avec la passion
-                qui m'anime : capturer l'essence de chaque instant.</p>
+                <h2 class="titre-contenu">Robbie Lens, Photographie</h2>
 
-            <p>A très bientôt</p>       <!--Court descriptif du site-->
+                <p>
+                    Où <em class="p-acceuil">professionalisme</em> s'allie avec <em class="p-acceuil">passion</em>. 
+                    Depuis plus de 5 ans maintenant, j'exerce mon métier avec la passion
+                    qui m'anime : capturer l'essence de chaque instant.<br />A très bientôt
+                </p>
+    
+                <!--Court descriptif du site-->
+    
+                <div class="bt-arrondi">
+                    <a href="#">UN PROJET ? ÉCRIVEZ-MOI </a>
+                </div> 
 
-            </section>
+            </div>
 
-        </div>
+            <img src="Images/robbie-lens.png" alt="photo de robbie lens" title="Robbie Lens"/>
 
-            <img src="Images/robbie-lens.png" alt="photo de robbie lens" title="Robbie Lens" class="robbie"/>
+        </section>
 
-        <div>
+        
+        <section class="images">
+            <h2>Mon dernier projet</h2>
 
-            <a href="" class="degrader">UN PROJET ? ÉCRIVEZ-MOI</a>
+            <div>
+                <img src="Images/Acceuil/element-1.png" alt="photo de paysage" title="photo de paysage"/>
+                <img src="Images/Acceuil/element-2.png" alt="photo de paysage" title="photo de paysage"/>
+                <img src="Images/Acceuil/element-3.png" alt="photo de paysage" title="photo de paysage"/>
+            </div>
 
-        </div> 
+            <div>
+                <img src="Images/Acceuil/element-4.png" alt="photo de paysage" title="photo de paysage"/>
+                <img src="Images/Acceuil/element-5.png" alt="photo de paysage" title="photo de paysage"/>
+                <img src="Images/Acceuil/element-6.png" alt="photo de paysage" title="photo de paysage"/>
+            </div>
+
+            <div id="portfolio" class="bt-arrondi">
+                <a href="Contenue/portefolio.html">VOIR MON PORTFOLIO</a>
+            </div>
+
+        </section>
 
     </main>       
 
@@ -61,7 +85,7 @@
             <a href="https://www.instagram.com/"target="blank" id="lien"><img src="Images/instagram.png" alt="Lien vers mon Instagram" 
                 title="mon instagram"/></a>                                                                                                 <!--liens vers réseaux-->
             
-            <a href="index.html"><img src="Images/logo.png" alt="logo de mon site" title="logo" id="lien"/></a>
+            <a href="index.html"><img src="Images/logo.png" alt="logo de mon site" title="logo" class="logo"/></a>
 
 
     </footer>        
