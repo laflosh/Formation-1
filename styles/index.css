@@ -67,3 +67,18 @@ section.images div{
     gap: 10px;
 
 }
+
+form {
+
+    color: white;
+    margin: auto;
+    width: 50%;
+
+}
+
+.info, .message{
+
+    padding: 10%;
+
+}
+
